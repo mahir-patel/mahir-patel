@@ -1,64 +1,91 @@
-# Mahir H. Patel
+<h1 align="center">Hey, I'm Mahir 👋</h1>
 
-**Mathematics @ UBC** · Building things at the intersection of AI systems, quantitative finance, and full-stack engineering.
+<p align="center">
+  <em>Mathematics @ UBC &nbsp;·&nbsp; AI Systems &nbsp;·&nbsp; Quantitative Finance &nbsp;·&nbsp; Full-Stack</em>
+</p>
 
-I work closest to the data and model layer — designing ML pipelines, multi-agent AI architectures, and production backend systems. Currently studying stochastic processes and linear programming, which feeds directly into how I think about system design and algorithm behaviour.
-
----
-
-## What I've Built
-
-### [MarketMind](https://github.com/mahir-patel/marketmind) — Multi-Agent AI Financial Analysis Platform
-The most technically complex thing I've shipped. A production-grade microservices system (12 containerized services, Docker + Kubernetes) that streams real-time OHLCV data at 1-second tick frequency via MQTT → Redis → GraphQL WebSocket into a React dashboard.
-
-The core is a LangGraph-orchestrated multi-agent pipeline — 4 specialist agents powered by Claude API — that combines RAG over ChromaDB with SuperTrend + KNN trend classification to generate institutional-grade research notes with entry/stop/target levels. The quant engine computes 40+ metrics: Hurst exponent, VaR/CVaR at 95–99% confidence, Sharpe/Sortino, beta/alpha vs. SPY, max drawdown. Five heterogeneous databases (PostgreSQL, MongoDB, ChromaDB, Redis, Snowflake) tied together with Kafka event streaming.
-
-`Python` `FastAPI` `LangGraph` `LangChain` `Claude API` `RAG` `ChromaDB` `Apache Kafka` `Redis` `PostgreSQL` `Snowflake` `Docker` `Kubernetes` `React` `TypeScript`
-
----
-
-### [TrailSafe](https://github.com/umang-bhavsar/trailsafe/tree/mahir_1) — Hiking Safety Mobile App
-Cross-platform React Native app with real-time trail discovery, Google Maps route previews, and an AI safety scoring system (OpenRouter AI) that evaluates trail risk dynamically based on weather, sunset timing, and hazard reports. Implemented a check-in system with automated overdue alerts via Supabase Edge Functions and live GPS breadcrumb tracking. CI/CD via Jenkins + EAS Build.
-
-`React Native` `TypeScript` `Expo` `Supabase` `OpenRouter AI` `Google Maps API` `Jenkins`
+<p align="center">
+  <a href="https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BuRDALV0DR%2Bm6syYBnkExEw%3D%3D">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="mailto:mahirhp11@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" />
+  </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=mahir-patel&style=flat&color=lightgrey" />
+</p>
 
 ---
 
-### [StreamVault](https://stream-vault-eight.vercel.app/login) — Streaming Discovery Platform
-Full-stack platform for discovering what's streaming across 100+ countries. Built the backend with Node.js/Express, JWT auth, and TMDB API integration. Modelled the PostgreSQL schema for efficient streaming availability caching. Deployed on Vercel + Railway.
-
-`Next.js` `Node.js` `PostgreSQL` `Supabase` `REST APIs` `Tailwind CSS`
-
----
-
-### Fraud Detection System — ML Classification Pipeline
-XGBoost classifier on imbalanced financial transaction data with an 85% recall rate. Used SHAP for model interpretability and integrated Gemini AI to translate statistical outputs into human-readable explanations. Built as a complete pipeline from feature engineering through real-time scoring.
-
-`Python` `XGBoost` `Scikit-learn` `SHAP` `Pandas` `NumPy` `Flask`
+```python
+mahir = {
+    "currently":  "B.Sc. Mathematics @ UBC (2023–2027)",
+    "building":   "multi-agent AI systems & quant finance tools",
+    "interests":  ["LLM pipelines", "stochastic modelling", "distributed systems"],
+    "reach_me":   "mahirhp11@gmail.com"
+}
+```
 
 ---
 
-## Technical Depth
+### 🔨 What I'm working with
 
-Where I spend most of my time, ranked by depth:
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white"/>
+</p>
 
-- **ML & Quant** — Scikit-learn, XGBoost, NumPy, Pandas, SciPy, SHAP, statistical modelling, risk metrics
-- **GenAI / LLM Systems** — LangChain, LangGraph, RAG pipelines, prompt engineering, vector databases, Claude API
-- **Backend & Data** — FastAPI, PostgreSQL, Redis, Kafka, REST/GraphQL, Docker, Kubernetes
-- **Languages** — Python (primary), TypeScript, SQL, Java, R, C++
+<p>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LangGraph-FF6B35?style=flat&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat&logo=react&logoColor=black"/>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-FF4438?style=flat&logo=redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white"/>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/XGBoost-189AB4?style=flat&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white"/>
+</p>
 
 ---
 
-## Background
+### 🚀 Featured Projects
 
-Studying Mathematics at UBC (2023–2027). The degree isn't decorative — coursework in stochastic processes, probability theory, and linear programming directly informs how I approach ML system design and algorithm selection. I find the formal rigour useful for reasoning about model behaviour rather than just running things and seeing what sticks.
-
-Previously interned at a certified Odoo partner (Skyscend) doing Python automation and SQL pipeline work.
+| Project | What it does | Stack |
+|---|---|---|
+| [**MarketMind**](https://github.com/mahir-patel/marketmind) | 12-service microservices platform — LangGraph multi-agent pipeline with RAG, 40+ quant metrics (Hurst, VaR/CVaR, Sharpe/Sortino), streaming OHLCV data at 1s tick frequency | Python · LangGraph · Claude API · ChromaDB · Kafka · k8s |
+| [**TrailSafe**](https://github.com/umang-bhavsar/trailsafe/tree/mahir_1) | Cross-platform hiking safety app with AI-powered dynamic risk scoring, GPS live tracking, and Supabase Edge Function alerts | React Native · OpenRouter AI · Supabase · Jenkins CI/CD |
+| [**Fraud Detection**](https://github.com/mahir-patel) | XGBoost classifier achieving 85% recall on imbalanced financial transactions with SHAP interpretability | Python · XGBoost · Scikit-learn · SHAP · Flask |
 
 ---
 
-<p align="left">
-  <a href="mailto:mahirhp11@gmail.com">mahirhp11@gmail.com</a> ·
-  <a href="https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BuRDALV0DR%2Bm6syYBnkExEw%3D%3D">LinkedIn</a> ·
-  Vancouver, BC
+### 📊 GitHub Stats
+
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=mahir-patel&show_icons=true&theme=default&hide_border=true&count_private=true&hide=prs" />
+  &nbsp;&nbsp;
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahir-patel&layout=compact&theme=default&hide_border=true&langs_count=6" />
+</p>
+
+---
+
+<p align="center">
+  <sub>Currently exploring stochastic processes and how they show up in market microstructure.</sub>
 </p>
