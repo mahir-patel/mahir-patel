@@ -12,8 +12,6 @@
   <a href="mailto:mahirhp11@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" />
   </a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=mahir-patel&style=flat&color=lightgrey" />
 </p>
 
 ---
@@ -22,7 +20,6 @@
 mahir = {
     "currently":  "B.Sc. Mathematics @ UBC (2023–2027)",
     "building":   "multi-agent AI systems & quant finance tools",
-    "interests":  ["LLM pipelines", "stochastic modelling", "distributed systems"],
     "reach_me":   "mahirhp11@gmail.com"
 }
 ```
@@ -72,17 +69,6 @@ mahir = {
 |---|---|---|
 | [**MarketMind**](https://github.com/mahir-patel/marketmind) | 12-service microservices platform — LangGraph multi-agent pipeline with RAG, 40+ quant metrics (Hurst, VaR/CVaR, Sharpe/Sortino), streaming OHLCV data at 1s tick frequency | Python · LangGraph · Claude API · ChromaDB · Kafka · k8s |
 | [**TrailSafe**](https://github.com/umang-bhavsar/trailsafe/tree/mahir_1) | Cross-platform hiking safety app with AI-powered dynamic risk scoring, GPS live tracking, and Supabase Edge Function alerts | React Native · OpenRouter AI · Supabase · Jenkins CI/CD |
-| [**Fraud Detection**](https://github.com/mahir-patel) | XGBoost classifier achieving 85% recall on imbalanced financial transactions with SHAP interpretability | Python · XGBoost · Scikit-learn · SHAP · Flask |
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=mahir-patel&show_icons=true&theme=default&hide_border=true&count_private=true&hide=prs" />
-  &nbsp;&nbsp;
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahir-patel&layout=compact&theme=default&hide_border=true&langs_count=6" />
-</p>
 
 ---
 
